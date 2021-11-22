@@ -1,0 +1,193 @@
+.card {
+  position: relative;
+  width: 440px;
+  height: 462px;
+  margin: 10px 10px 10px 10px;
+  background-color: #292929;
+}
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+  color: #ffffff;
+  margin-left: 0px;
+}
+.fiPlayCircle {
+  color: "#58CC00";
+  height: 24px;
+  width: 24px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.bigCircle {
+  width: 34px;
+  height: 34px;
+  background: #58cc00;
+  border-radius: 50%;
+  align-self: center;
+}
+.midCard {
+  display: flex;
+  padding: 0px 30px 20px 30px;
+  color: #ffffff;
+}
+.imageTag {
+  margin-top: 3px;
+  width: 99px;
+  height: 20px;
+  background: #cdc3ba;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  padding-top: 3px;
+}
+.midRightWrap {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 281px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.actionsAndStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 110%;
+  padding: 4px;
+}
+.actionsAndStats:nth-child(odd) {
+    background: #2D2D2D;
+  }
+  
+  .actionsAndStats:nth-child(even) {
+    background: #292929;
+  }
+.statsRightWrap {
+  display: flex;
+  align-content: center;
+}
+.smallCircle {
+  width: 14px;
+  height: 14px;
+  background: #58cc00;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 5px;
+}
+.cardStats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.topStats {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 15px 25px 30px;
+}
+.bottomStats {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 15px 0px 30px;
+}
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  color: #ffffff;
+  width: 100px;
+}
+.digit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  color: #247bff;
+  width: 100px;
+  margin-top: 2px;
+}
+.salePrice {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+
+/* _____________________ */
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 439px;
+  top: 71px;
+  bottom: 0;
+  background: #292929;
+}
+.buttonGroup button {
+  align-items: center;
+  width: 320px;
+  height: 48px;
+  border: none;
+  margin: 3px;
+}
+.buttonGroup button:not(:last-child) {
+  background-color: #247bff;
+  color: #ffffff;
+}
+
+.buttonGroup button:last-child {
+  background-color: #e2e5ea;
+}
+
+/* _____________________ */
+
+.selectArea {
+  background: linear-gradient(180deg, rgba(25, 47, 81, 0) 0%, #192F51 66.67%);
+  width: 429px;
+  height: 200px;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
+.input {
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+  border: 2px solid #247bff;
+  cursor: pointer;
+}
+
+.innerSelectArea {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 110%;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.label {
+  margin-left: 4px;
+}
+
+.cardBorder {
+  border: 3px solid #247bff;
+}
+
