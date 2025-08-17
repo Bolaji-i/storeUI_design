@@ -57,7 +57,7 @@ export default function Dashboard() {
                 checked={context.selectAll} onChange={handleSelectAll} 
               />
               <label htmlFor="select" className={styles.label}>
-                Select All
+                Select All NOW :)
               </label>
             </div>
           )}
